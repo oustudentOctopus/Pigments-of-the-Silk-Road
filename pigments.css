@@ -1,0 +1,122 @@
+*{
+    border-width:thin;
+}
+
+html{
+    border-width:0;
+    background-color: #7b5e40;
+    background-color:black;
+}
+
+heading{
+    color:#b7a891;
+    background-color:#18366c;
+    text-align:center;
+    
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:80      
+}
+
+body {
+    
+    background-color:darkgoldenrod;
+    margin:0.5%;
+    
+    background:url(5.jpg) no-repeat left;
+    /*background:url(https://drive.google.com/uc?id=10EF91wEWNzMxAbNwXWgLgDkDdGEUkHb-) no-repeat left;*/
+    background-size:contain;
+    position:fixed;
+    top:80;
+    right:25%;
+    bottom:60px;
+    left:0;
+    overflow:scroll;  
+}
+
+aside{
+    color:black;
+    background-color:#c5bbb1;
+    margin:0px;
+    border:0px;
+    overflow-y:scroll;
+    
+    position:fixed;
+    right:0;
+    top:80;
+    width:23%;
+    bottom:60px; 
+    padding: 8px;
+}
+
+footer{
+    color:black;
+    background-color:darkgrey;
+    
+    
+    position:fixed;
+    bottom:0%;
+    height:60px;
+    width:100%;
+    right:0;
+}
+
+.colorvis {
+    opacity: 0.8;
+}
+.colorvis:hover{
+    opacity:0.0;
+}
+.colornovis {
+    opacity: 0.0;
+}
+.colornovis:hover {
+    opacity:0.3;
+}
+
+
+
+a.blue path{
+    fill:blue;
+}
+a.white path{
+    fill:#ffffff;
+}
+a.bwhite path{
+    fill: #fff4cb;
+}
+a.orange path {
+    fill:orange;
+}
+a.black path{
+    fill:black;
+}
+a.redm path{
+    fill:red;
+}
+a.redl path{
+    fill:darkred;
+}
+a.yellow path{
+    fill:yellow;
+}
+a.gray path{
+    fill:gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+h5 {
+    line-height:0.0;
+    margin-top:10px;
+    
+
+
